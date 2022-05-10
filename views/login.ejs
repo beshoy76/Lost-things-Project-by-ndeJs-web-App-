@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+  background-color:#cae4db;
+}
+
+.sidepanel  {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  height: 780px;
+  top: 0;
+  left: 0;
+  background-color: #583d72;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidepanel a:hover {
+  color: #f1f1f1;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #583d72;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color:#9f5f80;
+}
+</style>
+</head>
+<body>
+
+<div id="mySidepanel" class="sidepanel">
+  <a href="#" class="closebtn" onclick="closeNav()">×</a>
+  <a href="file:///F:/web%20project/first1.html">home page</a>
+  <a href=> </a>
+  <a href="file:///F:/web%20project/first1.html#find">find page</a>
+  <a href="file:///F:/web%20project/first1.html#slideshow">slide show</a>
+   <a href="file:///F:/web%20project/first1.html#ourteam">our team</a>
+</div>
+
+<button class="openbtn" onclick="openNav()">☰ MAIN</button> 
+<div class="container">
+  <h2>login form</h2>
+<form name="RegForm" 
+              onsubmit="return formm()" > 
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+    </div>
+    <div class="checkbox">
+      <label><input type="checkbox" name="remember"> Remember me</label>
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
+	<button type="submit" class="btn btn-default">		  <a href="file:///F:/web%20project/first1.html"> go to main page</button> </a>
+  
+
+ 
+ 
+ 
+ 
+ 
+     <h1 style="text-align: center;">REGISTRATION FORM</h1> 
+        
+            <p>Name: <input type="text" style="width:1150px; height:40px;" placeholder="Enter your name"
+                            size="65" name="Name" /></p> 
+            <br /> 
+            <p>Address: <input type="text" style="width:1150px; height:40px;" placeholder="Enter your address"
+                               size="65" name="Address" /> 
+          </p> 
+            <br /> 
+
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email"style="width:1150px; height:40px;" required placeholder="Enter email" name="email">
+
+            
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd"style="width:1150px; height:40px;"required placeholder="Enter password" name="pwd">
+  
+            <p>Telephone: <input type="text" style="width:1150px; height:40px;" required placeholder="Enter your phone"
+			
+                        size="11" name="Telephone" /></p> 
+            <br /> 
+  
+            
+            <br /> 
+          
+            <p>Comments: <textarea cols="139" 
+                              name="Comment"> </textarea></p> 
+            <p> 
+                <button type="submit" class="btn btn-default">Submit</button>
+					   </a>
+			<button type="submit" class="btn btn-default">		  <a href="http://localhost:3000/#"> go to main page</button> </a>
+					   
+               <button type="reset" class="btn btn-default" >reset</button> 
+            </p> 
+        </form> 
+ 
+ </div>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+   <script src="js/main.js"></script>
+
+
+   
+</body>
+</html> 

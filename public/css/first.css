@@ -1,0 +1,729 @@
+* {
+  box-sizing: border-box;
+}
+body
+{
+	margin:0;
+
+	background:url("aas.jpg")  ;
+	background-size:cover;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.page1
+{
+		background-size:cover;
+	background-image:url("cover.jpg");
+
+	width:100%;
+	height:1000px;
+	border: solid .1px #ffb48f;
+
+	
+	
+	
+}
+
+
+	
+	
+
+.h11{
+	
+	text-align:center;
+	height:60px;
+       color:
+	text-align:center;
+	margin:auto;
+	margin-top:300px;
+	font-family:Impact,fantasy;
+	font-size:70px;
+	word-spacing:25px;
+  
+	
+}
+
+
+
+
+/* social media*/
+#mySidenav a {
+	display:block;
+   
+  margin-top:10px;
+ margin-left: -80px;
+  transition: 0.5s;
+  padding: 12px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 17px;
+  color: white;
+  border-radius: 0 20px 20px 0;
+  text-align:center;
+}
+
+#mySidenav a:hover {
+  margin-left: -3px;
+   
+}
+
+#face {
+	 
+ 
+  background-color: blue;
+}
+
+#googl {
+
+  background-color: #2196F3;
+}
+
+#yahoo {
+ 
+  background-color: #f44336;
+}
+
+#insta {
+
+  background-color: #fd3a69;
+ 
+  
+}
+#twitter
+{
+
+  background-color: #98acf8;
+}
+/* end social*/
+/* start buttons in cover*/
+.button{
+	
+	height:60px;
+
+	width:450px;
+	margin-right:50px;
+	margin:auto;
+	margin-top:220px;
+	
+}
+ .buttonx 
+{
+	margin-right:50px;
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #cf7500;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  width:150px;
+	
+}
+.buttony 
+{
+	margin-right:50px;
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #1b6ca8;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  width:150px;
+	
+}
+ .buttonx:active, .buttony:active
+{
+	 background-color: red;
+  box-shadow: 0 4px #666;
+  transform: translatey(5px);
+	
+}
+
+/* navbar start */
+.navbar
+{
+	
+ z-index:1;
+
+	float:right;
+margin-top:-310px;
+position: fixed;right:0px;
+
+	
+	
+}
+
+ .navx {
+	 z-index:1;
+     font-size:21px;
+	font-weight:bold;
+	
+	 background-color:#c5aa6a;
+	 margin-top:15px;
+	 text-decoration:none;
+	 text-align:center;
+	 text-align:center;
+	 color:white;
+padding:7px;
+		
+	 margin:4px;
+
+	
+	margin-left:10px;
+	
+	  border-radius:25%;
+	  padding:10px;
+}
+.navx:hover{
+	 background-color:red;
+	 opacity:100%;
+}
+
+/*page 2*/
+
+.slideshow
+{
+	height:740px;
+
+	display:flex;	
+	
+}
+
+.videom{
+	
+	width:20%;
+	height:100%;
+}
+.imgsss
+{
+	border:.3px solid #ffe5b9;
+	width:60%;
+	height:100%;
+	
+	
+}
+.mmg
+{
+
+	width:100%;
+	height:100%;
+}
+
+#myVideo
+{
+	max-width:100%;
+	min-height:100%;
+}
+
+/* page3 */
+
+
+
+.container {
+  padding: 64px;
+}
+
+.row:after {
+  content: "";
+  display: flex;
+  clear: both
+}
+
+.rightdivv {
+  float: left;
+  width: 66.66666%;
+  padding: 20px;
+}
+
+.leftdivv {
+  float: left;
+  width: 33.33333%;
+  padding: 20px;
+  display:flex;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height:500px;
+  
+  background-size:cover;
+
+}
+
+ .left3
+{
+	border:2px solid black ;
+	width:33%;
+	height:130px;
+	
+	
+}
+
+.large-font {
+  font-size: 48px;
+}
+
+.xlarge-font {
+  font-size: 64px
+}
+
+
+
+
+
+img {
+ 
+  height: auto;
+  max-width: 100%;
+   transition: border 0.1s, transform 0.3s;
+}
+img:hover{
+	transform:translatey(-20px);
+	
+}
+
+
+@media screen and (max-width: 1000px) {
+  .rightdivv,
+  ..leftdivv {
+    width: 100%;
+    text-align: center;
+  }
+  img {
+    margin: auto;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+/*page4*/
+
+
+
+
+.page4
+{
+	display:flex;
+}
+.leftvideo , .rightvideo
+{
+	min-widows:10%;
+	width:10%;
+	max-width:10%;
+	height:920px;
+	
+}
+.mid
+{
+
+	width:80%;
+	height:1500px;
+
+	
+}
+
+.cardlost {
+  background-color: transparent;
+  width:19%;
+  max-width:28%;
+  margin-left:9px;
+  margin-top:10px;
+  height: 450px;
+  perspective: 1000px;
+  float:left;
+ 
+ 
+  
+  
+}
+
+.divmg{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   
+}
+
+.cardlost:hover .divmg {
+  transform: rotateY(180deg);
+
+}
+
+.firstdv, .backdv {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  
+}
+
+.firstdv {
+  background-color: #bbb;
+  color: black;
+    border-radius:20%;
+}
+
+.backdv {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+    border-radius:5%;
+}
+
+
+/* Full-width input fields */
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: blue;
+  color: white;
+  padding: 20px 34px;
+  margin: 20px 0;
+  border: none;
+  border-radius:10%;
+  cursor: pointer;
+  width: 100%;
+  font-size:15px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 20px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+
+.container {
+  padding: 5px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 10px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 98%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*page5*/
+
+
+.rightvideox{
+	height:400px;
+	width:500px;
+	border:5px solid black;
+}
+
+
+
+.alls
+{
+	
+	background-color:#fd8c04;
+margin-left:-250px;
+	width:100%;
+	display:flex;
+	background-size:cover;
+}
+
+
+.column {
+
+  width: 100%;
+ 
+ 
+  padding: 0 8px;
+}
+.column {
+   margin-left:440px;
+    display: block;
+	height:250px;
+	
+  }
+
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+    display: block;
+	height:200px;
+	
+  }
+}
+
+.card {
+  box-shadow: 2px 4px 8px 2px rgba(5, 0, 0, 0.4);
+  width:240px;
+  
+  float:left;
+  margin:15px;
+
+}
+
+.container {
+  padding: 0 16px;
+}
+
+
+
+
+
+
+.fa {
+  padding:15px ;
+  font-size: 12px;
+  width: 12px;
+  border-radius:20%;
+  height:8px;
+  float:left;
+  text-align: center;
+  text-decoration: none;
+ margin:2px 5px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  margin-bottom:15px;
+ 
+
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+
+/*your lost*/
+.page4s{
+	display:flex;
+	width:100%;
+	height:650px;   
+	
+	
+}
+.leftt{
+		width:25%;
+		
+	
+}
+
+.lost
+{
+	
+margin-left:50px;
+	background-color:#ffd66b;
+	width:800px;
+	height:100%;
+	
+	
+}
+
+
+
+
+
+
+
+/* Start Footer */
+
+.footer {
+    background-color:#191E22;
+    color:#6A6E71;
+    padding:20px 0;
+    text-align:center;
+    overflow:hidden;
+	margin-right:-10px
+}
+
+.footer ul {
+    list-style:none;
+    padding-left:0;
+    margin:0;
+    float:right
+}
+
+.footer ul li {display:inline-block}
+
+/* End Footer */
+
+
+
+
+
+
+

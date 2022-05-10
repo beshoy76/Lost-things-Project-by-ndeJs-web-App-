@@ -1,0 +1,3280 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <meta charset="UTF-8">
+        <title>lost items</title>
+        <link rel="stylesheet" href="/css/first.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+   </head>
+
+   <body>
+   <div id="mySidenav" style ="position:fixed;z-index:1;" >
+  <a href="#" id="face">facebook</a>
+  <a href="#" id="googl">google</a>
+  <a href="#" id="yahoo">yahoo</a>
+  <a href="#" id="insta">instagram</a>
+   <a href="#" id="twitter">twitter</a>
+         </div>
+   <div class="page1">
+   
+     
+            <h1 class="h11">find your<span style="color:#fc8621"> lost</span> thingth</h1>
+         
+	 <div class="navbar">
+	
+		<a class="navx" href="#">home page</a>
+		 <a  class="navx"href="#find">find    </a> 
+		 <a class="navx"href="#slideshow">slide show </a> 
+	   <a class="navx"href="#how">how find   </a> 
+	   <a class="navx"href="#whoo">who find   </a> 
+	    <a class="navx"href="#ourteam">our team   </a> 
+		<a class="navx"href="file:///F:/web%20project/log%20in.html">log in</a> 
+		
+		
+		    
+		</div>
+		
+	 
+   
+   </div>
+   
+   <!--page 2-->
+   <div class="slideshow" id="slideshow">
+     <div class="videom">
+     <img src="img/8989.jpg" style="height:100%" >
+
+   </div>
+   <div class="imgsss">
+   <img class="mmg" name="show">
+   </div>
+   <div class="videom">
+    <img src="img/8989.jpg" style="height:100%" >
+   </div>
+   </div>
+
+   
+   
+    <!-- page 3 -->
+<div class="container" style="background-color:rgba(255, 161, 10, 0.63); margin-top:30px; height:500px;" id="how">
+  <div class="row">
+    <div class="leftdivv">
+	<img class="12" src="img/1020.png" >
+
+    </div>
+    <div class="rightdivv">
+      <h1 class="xlarge-font"><b>find your lost</b></h1>
+      <h1 class="large-font" style="color:red;"><b>how?</b></h1> 
+      <p style="font-size:24px"> At the beginning, you must choose from the pictures below the missing thing
+Second, you must add the specifications for this thing. Third, the specifications are sent via the Send button.</p>
+     <details style="background-color:red;width:150px; height:45px; color:white; font-size:20px; ">
+  <summary style="padding:5px; margin:15px 12px;">Read more</summary>
+  <p  style="width:700px; height:30px;color:black; word-spacing:8px;">After you finish, you must keep the ID. The costume you entered for the lost thing, and after you remove it, you will add it to the top when you search whether it was found or not</p>
+</details>
+    </div>
+  </div>
+</div>
+   
+   <div class="page4" style="margin-top:50px;">
+   <div class="leftvideo" >
+  	  <img src="img/1234.png" style="height:50%" >
+	   <img src="img/88.png" style="height:50%" >
+	   <img src="img/qwer.png" style="height:50%" >
+   </div>
+   <div class="mid" id="find">
+     <div class="cardlost">
+  <div class="divmg">
+    <div class="firstdv">
+      <img src="img/zt.jpg" style="max-width:100%; height:450px; ">
+    </div>
+    <div class="backdv">
+	
+	
+	<!--back add button-->
+     <button onclick="document.getElementById('moneyx').style.display='block'" style="width:auto;">add</button>
+	 <div id="moneyx" class="modal">
+		 
+  <form class="modal-content animate" name="money" method="post" action="/addmoney"   onsubmit="return capa()">  >
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('moneyx').style.display='none'" class="close" title="Close Modal">&times;</span>
+      
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>yourname</b></label>
+      <input type="text" placeholder="Enter your name" name="uname" required>
+
+      <label for="psw"><b>id</b></label>
+	   <input type="tel" name="phone" placeholder="enter your phone  "
+                      
+                   onkeypress="return onlyNumberKey(event)" maxlength="11" 
+                   size="30%" style="max-width:100%;"required />  
+        
+     <input type="text" placeholder="enter id " name="idname" required onkeypress="return onlyNumberKey(event)" 
+                   maxlength="11" 
+                   size="50%" /> 
+				   <input type="number" min="10" placeholder=" number of money" name="numberofmoney" required>
+				    <label style="color:black"> select place</label>
+				   <select style="width:50%; " name="place" required>
+			
+					 
+					 <option> lab 300</option>
+					 <option> lab 301</option>
+					 <option> lab 302</option>
+					 <option> lab 303</option>
+					 <option> lab 304</option>
+					 <option> lab 305</option>
+					 <option> lab 306</option>
+					<option> lab 400</option>
+					<option> lab 401</option>
+					<option> lab 402</option>
+					<option> lab 403</option>
+					<option> lab 404</option>
+					<option> class room 1</option>
+					<option> class room 2</option>
+					<option> class room 3 </option>
+					<option> class room  4</option>
+						<option> class room  5</option>
+					
+				 </select>
+				   
+				
+
+				    <input type="date" id="time" name="time">
+				 
+				  <textarea id="Notes" name="Notes" rows="4" cols="25">
+				  
+				  enter your notes
+
+                    </textarea>
+					
+	
+      <button type="submit">finish</button>
+      
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('moneyx').style.display='none'" class="cancelbtn">Cancel</button>
+   
+    </div>
+  </form>
+</div>
+
+
+
+<!--back  search button-->
+	
+     <button onclick="document.getElementById('moneyy').style.display='block'" style="width:auto;">search</button>
+	 <div id="moneyy" class="modal">
+  
+  <form class="modal-content animate" method="get" action="/searchmoney" >
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('moneyy').style.display='none'" class="close" title="Close Modal">&times;</span>
+      
+    </div>
+
+    <div class="container">
+      
+      <!-- <input type="text" placeholder="Enter your name" name="uname" required>
+
+  
+	   <input type="tel" placeholder="enter your phone "
+                      
+                   onkeypress="return onlyNumberKey(event)" maxlength="11" 
+                   size="30%" style="max-width:100%;" />  
+        
+     <input type="text" placeholder="enter id "
+                   onkeypress="return onlyNumberKey(event)" 
+                   maxlength="11" 
+                   size="50%" />  -->
+	                				   <input type="number" min="10" placeholder=" number of money" name="numberofmoney" required>
+									    <label style="color:black"> select place</label>
+				   <select style="width:50%; " name="place" required>
+				
+					 
+					 <option> lab 300</option>
+					 <option> lab 301</option>
+					 <option> lab 302</option>
+					 <option> lab 303</option>
+					 <option> lab 304</option>
+					 <option> lab 305</option>
+					 <option> lab 306</option>
+					<option> lab 400</option>
+					<option> lab 401</option>
+					<option> lab 402</option>
+					<option> lab 403</option>
+					<option> lab 404</option>
+					<option> class room 1</option>
+					<option> class room 2</option>
+					<option> class room 3 </option>
+					<option> class room  4</option>
+						<option> class room  5</option>
+							<option>other</option>
+					
+				 </select><br>
+		  <textarea id="Notes" name="Notes" rows="4" cols="25">
+				  enter your notes
+
+                    </textarea>  
+					 <!-- <input type="date" id="time" name="time"> -->
+				
+
+
+				   
+      <button type="submit">finish</button>
+     
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('moneyy').style.display='none'" class="cancelbtn">Cancel</button>
+   
+    </div>
+  </form>
+</div>
+
+	 
+	 <!--end find button-->
+	 
+	 
+	 
+	 
+	 
+	 
+    </div>
+	<!--end pack face-->
+  </div>
+</div>
+
+                                                                    <!--bag-->
+     <div class="cardlost">
+  <div class="divmg">
+    <div class="firstdv">
+     <img src="img/zw.jpg" style="max-width:100%; height:450px; ">
+    </div>
+    <div class="backdv">
+	
+	<!--back add button-->
+     <button onclick="document.getElementById('bag').style.display='block'" style="width:auto;">add</button>
+	 <div id="bag" class="modal">
+  
+  <form class="modal-content animate" name="bags"  method="POST" action="/addbag"   onsubmit="return capa()"> 
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('bag').style.display='none'" class="close" title="Close Modal">&times;</span>
+      
+    </div>
+
+    <div class="containerx">
+     
+      <input type="text" placeholder="Enter your name" name="uname" required>
+
+   
+	   <input type="tel" placeholder="enter your phone " name="phone"
+                      
+                   onkeypress="return onlyNumberKey(event)" maxlength="11" 
+                   size="30%" style="max-width:100%;"required />  
+        
+     <input type="text" placeholder="enter id "name="idname"  required
+                   onkeypress="return onlyNumberKey(event)" 
+                   maxlength="11" 
+                   size="50%" /> 
+				   <label style="color:black"> select color </label>
+				   <select style="width:50%; " required name="color" >
+					<option> red</option>
+					<option>brown </option>
+					<option> black</option>
+					<option> green </option>
+					<option> blue </option>
+					<option> white</option>
+					<option> yellow</option>
+					<option> orange </option>
+					<option> pink</option>
+					
+				 </select>
+				 <label style="color:black"> select place</label>
+				   <select style="width:50%; " name="placee" required>
+					
+					 
+					 <option> lab 300</option>
+					 <option> lab 301</option>
+					 <option> lab 302</option>
+					 <option> lab 303</option>
+					 <option> lab 304</option>
+					 <option> lab 305</option>
+					 <option> lab 306</option>
+					<option> lab 400</option>
+					<option> lab 401</option>
+					<option> lab 402</option>
+					<option> lab 403</option>
+					<option> lab 404</option>
+					<option> class room 1</option>
+					<option> class room 2</option>
+					<option> class room 3 </option>
+					<option> class room  4</option>
+						<option> class room  5</option>
+						<option>other</option>
+				 </select>
+				 
+				   
+				   <input type ="file" name="add image" style="background-color:yellow; color:black;" >
+
+				    <input type="date" id="time" name="time">
+					
+				  <textarea id="Notes" name="Notes" rows="4" cols="25">
+				  
+				  enter your notes
+
+                    </textarea>
+				   
+				   
+				   
+				   
+	 			   
+				   
+				   
+	 			   
+	
+      <button type="submit">finish</button>
+      
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('bag').style.display='none'" class="cancelbtn">Cancel</button>
+     
+    </div>
+  </form>
+</div>
+
+	
+	<!---start search-->
+	<button onclick="document.getElementById('bagy').style.display='block'" style="width:auto;">search</button>
+	 <div id="bagy" class="modal">
+  
+  <form class="modal-content animate"  method="get" action="/searchbag">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('bagy').style.display='none'" class="close" title="Close Modal">&times;</span>
+      
+    </div>
+
+    <div class="containerx">
+      <!-- <label for="uname"><b>yourname</b></label>
+      <input type="text" placeholder="Enter your name" name="uname" required>
+
+      <label for="psw"><b>id</b></label>
+	   <input type="tel" placeholder="enter your phone "
+                      
+                   onkeypress="return onlyNumberKey(event)" maxlength="11" 
+                   size="30%" style="max-width:100%;"required />  
+        
+     <input type="text" placeholder="enter id "required
+                   onkeypress="return onlyNumberKey(event)" 
+                   maxlength="11" 
+                   size="50%" />  -->
+				   
+				   
+				   <label style="color:black"> select color</label>
+				   <select style="width:50%; "  name="color" required>
+					<option> red</option>
+					<option>brown </option>
+					<option> black</option>
+					<option> green </option>
+					<option> blue </option>
+					<option> white</option>
+					<option> yellow</option>
+					<option> orange </option>
+					<option> pink</option>
+					
+				 </select>
+				 <label style="color:black"> select place</label>
+				   <select style="width:50%; " name="place" required>
+					
+					 
+					 <option> lab 300</option>
+					 <option> lab 301</option>
+					 <option> lab 302</option>
+					 <option> lab 303</option>
+					 <option> lab 304</option>
+					 <option> lab 305</option>
+					 <option> lab 306</option>
+					<option> lab 400</option>
+					<option> lab 401</option>
+					<option> lab 402</option>
+					<option> lab 403</option>
+					<option> lab 404</option>
+					<option> class room 1</option>
+					<option> class room 2</option>
+					<option> class room 3 </option>
+					<option> class room  4</option>
+						<option> class room  5</option>
+						<option>other</option>
+				 </select><br>
+				 
+				   
+			
+
+				    <!-- <input type="date" id="time" name="time"> -->
+					
+			  <textarea id="Notes" name="Notes" rows="4" cols="25">
+				  
+				  enter your notes
+
+                    </textarea>
+				   
+				   
+				   
+	
+      <button type="submit">finish</button>
+      
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('bagy').style.display='none'" class="cancelbtn">Cancel</button>
+   
+    </div>
+  </form>
+</div>
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+      
+    </div>
+  </div>
+</div>
+                               <!--cap-->
+ <div class="cardlost">
+  <div class="divmg">
+    <div class="firstdv">
+      <img src="img/zs.jpg" style="max-width:100%; height:450px; ">
+    </div>
+    <div class="backdv">
+	
+	
+	
+	
+	
+	
+	
+	<!--back add button-->
+     <button onclick="document.getElementById('capx').style.display='block'" style="width:auto;">add</button>
+	 <div id="capx" class="modal">
+  
+		<form class="modal-content animate"  name="caps" method="POST" action="/addcab"   onsubmit="return capa()">
+			<div class="imgcontainer">
+			  <span onclick="document.getElementById('capx').style.display='none'" class="close" title="Close Modal">&times;</span>
+			  
+			</div>
+		
+			<div class="containerx">
+		
+			  <input type="text" placeholder="Enter your name" name="unamee" >
+		
+			   <input type="tel" placeholder="enter your phone "  name="phonee"
+							  
+						   onkeypress="return onlyNumberKey(event)" maxlength="11" 
+						   size="30%" style="max-width:100%;" />  
+				
+			 <input type="text" placeholder="enter id " name="idnume"
+						   onkeypress="return onlyNumberKey(event)" 
+						   maxlength="11" 
+						   size="50%" /> 
+						   
+						   
+							 
+						   
+						   
+						   
+						   
+							<label style="color:black"> select color</label>
+						   <select style="width:50%; " name="colorse">
+							<option> red</option>
+							<option>brown </option>
+							<option> black</option>
+							<option> green </option>
+							<option> blue </option>
+							<option> white</option>
+							<option> yellow</option>
+							<option> orange </option>
+							<option> pink</option>
+							
+						 </select>
+						 <label style="color:black"> select place</label>
+						   <select style="width:50%; " name="placee" >
+							
+							 
+							 <option> lab 300</option>
+							 <option> lab 301</option>
+							 <option> lab 302</option>
+							 <option> lab 303</option>
+							 <option> lab 304</option>
+							 <option> lab 305</option>
+							 <option> lab 306</option>
+							<option> lab 400</option>
+							<option> lab 401</option>
+							<option> lab 402</option>
+							<option> lab 403</option>
+							<option> lab 404</option>
+							<option> class room 1</option>
+							<option> class room 2</option>
+							<option> class room 3 </option>
+							<option> class room  4</option>
+								<option> class room  5</option>
+								<option>other</option>
+						 </select>
+						   
+						   
+							
+						   <input type ="file" name="add image" style="background-color:yellow; color:black;" >
+		
+							<input type="date" id="time" name="time" >
+							
+					  <textarea id="Notes" name="Notes" rows="4" cols="25">
+						  
+						  enter your notes
+		
+							</textarea>
+						   
+						   
+						   
+						   
+						   
+						   
+						   
+				   
+				   
+				   
+		
+				   
+				   
+				   
+				   
+	
+      <button type="submit">finish</button>
+      
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('capx').style.display='none'" class="cancelbtn">Cancel</button>
+     
+    </div>
+  </form>
+</div>
+
+	
+	<!---start search-->
+	<button onclick="document.getElementById('capy').style.display='block'" style="width:auto;">search</button>
+	 <div id="capy" class="modal">
+  
+  <form class="modal-content animate"  method="get" action="/search">
+
+
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('capy').style.display='none'" class="close" title="Close Modal">&times;</span>
+      
+    </div>
+
+    <div class="containerx">
+      <!-- <label for="uname"><b>yourname</b></label>
+      <input type="text" placeholder="Enter your name" name="uname" required>
+
+      <label for="psw"><b>id</b></label>
+	   <input type="tel" placeholder="enter your phone " name="telephone" -->
+                      
+                   <!-- onkeypress="return onlyNumberKey(event)" maxlength="11" 
+                   size="30%" style="max-width:100%;"required />  
+        
+     <input type="text" placeholder="enter id "required name="id"
+                   onkeypress="return onlyNumberKey(event)" 
+                   maxlength="11" 
+                   size="50%" /> 
+				    -->
+				   
+				   
+				   
+				    <label style="color:black"> select color</label>
+				   <select style="width:50%; " required name="color">
+					<option> red</option>
+					<option>brown </option>
+					<option> black</option>
+					<option> green </option>
+					<option> blue </option>
+					<option> white</option>
+					<option> yellow</option>
+					<option> orange </option>
+					<option> pink</option>
+					
+				 </select>
+				 <label style="color:black"> select place</label>
+				   <select style="width:50%; " name="place" required>
+					
+					 
+					 <option> lab 300</option>
+					 <option> lab 301</option>
+					 <option> lab 302</option>
+					 <option> lab 303</option>
+					 <option> lab 304</option>
+					 <option> lab 305</option>
+					 <option> lab 306</option>
+					<option> lab 400</option>
+					<option> lab 401</option>
+					<option> lab 402</option>
+					<option> lab 403</option>
+					<option> lab 404</option>
+					<option> class room 1</option>
+					<option> class room 2</option>
+					<option> class room 3 </option>
+					<option> class room  4</option>
+						<option> class room  5</option>
+						<option>other</option>
+				 </select>
+				   
+				     <!-- <input type="date" id="time" name="time"> -->
+					
+		  <textarea id="Notes" name="Notes" rows="4" cols="25">
+				  
+				  enter your notes
+
+                    </textarea>
+				   
+				   
+				   
+				   
+				   
+				   
+	
+      <button type="submit">finish</button>
+      
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('capy').style.display='none'" class="cancelbtn">Cancel</button>
+   
+    </div>
+  </form>
+</div>
+
+	
+	
+	
+	
+	
+	
+	
+
+	<!--start wallet-->
+	
+      
+    </div>
+  </div>
+</div>
+ <div class="cardlost">
+  <div class="divmg">
+    <div class="firstdv">
+      <img src="img/za.jpg" style="max-width:100%; height:450px; ">
+    </div>
+    <div class="backdv">
+	
+	
+	<!--back add button-->
+     <button onclick="document.getElementById('walletx').style.display='block'" style="width:auto;">add</button>
+	 <div id="walletx" class="modal">
+  
+  <form class="modal-content animate" name="wallet" method="post" action="/addwallet"  onsubmit="return capa()"> 
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('walletx').style.display='none'" class="close" title="Close Modal">&times;</span>
+      
+    </div>
+
+    <div class="containerx">
+      <label for="uname"><b>yourname</b></label>
+      <input type="text" placeholder="Enter your name" name="uname" required>
+
+      <label for="psw"><b>id</b></label>
+	   <input type="tel" name="phone" placeholder="enter your phone "
+                      
+                   onkeypress="return onlyNumberKey(event)" maxlength="11" 
+                   size="30%" style="max-width:100%;"required />  
+        
+     <input type="text" placeholder="enter id " name="idname" required
+                   onkeypress="return onlyNumberKey(event)" 
+                   maxlength="11" 
+                   size="50%" /> 
+				   
+				   
+
+				   <input type="number" min="10" placeholder=" number of money" name="numberofmoney" required>
+				   <label style="color:black"> select place</label>
+
+				   
+				   
+				   
+				    <label style="color:black"> select color</label>
+				   <select style="width:50%; " name="color" required>
+					<option> red</option>
+					<option>brown </option>
+					<option> black</option>
+					<option> green </option>
+					<option> blue </option>
+					<option> white</option>
+					<option> yellow</option>
+					<option> orange </option>
+					<option> pink</option>
+					
+				 </select>
+				 <label style="color:black"> select place</label>
+				   <select style="width:50%; " name="place" required>
+					
+					 
+					 <option> lab 300</option>
+					 <option> lab 301</option>
+					 <option> lab 302</option>
+					 <option> lab 303</option>
+					 <option> lab 304</option>
+					 <option> lab 305</option>
+					 <option> lab 306</option>
+					<option> lab 400</option>
+					<option> lab 401</option>
+					<option> lab 402</option>
+					<option> lab 403</option>
+					<option> lab 404</option>
+					<option> class room 1</option>
+					<option> class room 2</option>
+					<option> class room 3 </option>
+					<option> class room  4</option>
+						<option> class room  5</option>
+						<option>other</option>
+				 </select>
+				   
+				   
+				    
+				   <input type ="file" name="add image" style="background-color:yellow; color:black;" >
+
+				    <input type="date" id="time" name="time">
+					
+				  <textarea id="Notes" name="Notes" rows="4" cols="25">
+				  
+				  enter your notes
+
+                    </textarea>
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+	
+      <button type="submit">finish</button>
+      
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('walletx').style.display='none'" class="cancelbtn">Cancel</button>
+     
+    </div>
+  </form>
+</div>
+
+	
+	<!---start search-->
+	<button onclick="document.getElementById('wallety').style.display='block'" style="width:auto;">search</button>
+	 <div id="wallety" class="modal">
+  
+  <form class="modal-content animate"  method="get" action="/searchwallet">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('wallety').style.display='none'" class="close" title="Close Modal">&times;</span>
+      
+    </div>
+
+    <div class="containerx">
+    
+      <!-- <input type="text" placeholder="Enter your name" name="uname" required>
+
+    
+	   <input type="tel" placeholder="enter your phone "
+                      
+                   onkeypress="return onlyNumberKey(event)" maxlength="11" 
+                   size="30%" style="max-width:100%;"required />  
+        
+     <input type="text" placeholder="enter id "required
+                   onkeypress="return onlyNumberKey(event)" 
+                   maxlength="11" 
+                   size="50%" />  -->
+				   <br>
+				   <br>
+				   <input type="number" min="10" placeholder=" number of money" name="numberofmoney" required>
+				    
+				   <br>
+				    <label style="color:black"> select color</label>
+				   <select style="width:50%; " name="color" required>
+					<option> red</option>
+					<option>brown </option>
+					<option> black</option>
+					<option> green </option>
+					<option> blue </option>
+					<option> white</option>
+					<option> yellow</option>
+					<option> orange </option>
+					<option> pink</option>
+					
+				 </select><br>
+				 <label style="color:black"> select place</label>
+				   <select style="width:50%; " name="place" required>
+					
+					 
+					 <option> lab 300</option>
+					 <option> lab 301</option>
+					 <option> lab 302</option>
+					 <option> lab 303</option>
+					 <option> lab 304</option>
+					 <option> lab 305</option>
+					 <option> lab 306</option>
+					<option> lab 400</option>
+					<option> lab 401</option>
+					<option> lab 402</option>
+					<option> lab 403</option>
+					<option> lab 404</option>
+					<option> class room 1</option>
+					<option> class room 2</option>
+					<option> class room 3 </option>
+					<option> class room  4</option>
+						<option> class room  5</option>
+						<option>other</option>
+				 </select><br>
+				   
+				     <!-- <input type="date" id="time" name="time"> -->
+					
+				  <textarea id="Notes" name="Notes" rows="4" cols="25">
+				  
+				  enter your notes
+
+                    </textarea>
+				   
+				   
+				   
+				   
+				   
+				   
+	
+      <button type="submit">finish</button>
+      
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('wallety').style.display='none'" class="cancelbtn">Cancel</button>
+   
+    </div>
+  </form>
+</div>
+
+	
+	
+
+	
+      
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- start keys -->
+
+
+ <div class="cardlost">
+  <div class="divmg">
+    <div class="firstdv">
+     <img src="img/zm.jpg" style="max-width:100%; height:450px; ">
+    </div>
+    <div class="backdv">
+	
+	
+	
+	
+	
+	
+	<!--back add button-->
+     <button onclick="document.getElementById('keyx').style.display='block'" style="width:auto;">add</button>
+	 <div id="keyx" class="modal">
+  
+  <form class="modal-content animate" name="keys"  method="post" action="/addkeys"  onsubmit="return capa()" >
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('keyx').style.display='none'" class="close" title="Close Modal">&times;</span>
+      
+    </div>
+
+    <div class="containerx">
+      <label for="uname"><b>yourname</b></label>
+      <input type="text" placeholder="Enter your name" name="uname" required>
+
+      <label for="psw"><b>id</b></label>
+	   <input type="tel" name="phone" placeholder="enter your phone "
+                      
+                   onkeypress="return onlyNumberKey(event)" maxlength="11" 
+                   size="30%" style="max-width:100%;"required />  
+        
+     <input type="text" placeholder="enter id " name="idname" required
+                   onkeypress="return onlyNumberKey(event)" 
+                   maxlength="11" 
+                   size="50%" /> 
+				   
+				   
+				    
+				   
+				   
+				   
+				   
+				 <label style="color:black"> select place</label>
+				   <select style="width:50%; " name="place" required>
+					
+					 
+					 <option> lab 300</option>
+					 <option> lab 301</option>
+					 <option> lab 302</option>
+					 <option> lab 303</option>
+					 <option> lab 304</option>
+					 <option> lab 305</option>
+					 <option> lab 306</option>
+					<option> lab 400</option>
+					<option> lab 401</option>
+					<option> lab 402</option>
+					<option> lab 403</option>
+					<option> lab 404</option>
+					<option> class room 1</option>
+					<option> class room 2</option>
+					<option> class room 3 </option>
+					<option> class room  4</option>
+						<option> class room  5</option>
+						<option>other</option>
+				 </select>
+				   
+
+				 
+				 <label style="color:black"> select number of keys</label>
+				   <select style="width:50%; " name="numberofkeys" required><br>
+				
+					 
+					 <option> 1</option>
+					 <option> 2</option>
+					 <option> 3</option>
+					 <option> 4</option>
+					 <option> 5</option>
+					 <option> 6</option>
+					 <option> 7</option>
+					<option> 8</option>
+					<option> 9</option>
+					<option> 10</option>
+					<option> 11</option>
+					<option> 12</option>
+					<option> other </option>
+					
+				 </select>
+				   
+				   
+				    
+				   <input type ="file" name="addimage" style="background-color:yellow; color:black;" >
+
+				  <input type="date" id="time" name="time">
+					
+				  <textarea id="Notes" name="Notes" rows="4" cols="25">
+				  
+				  enter your notes
+
+                    </textarea>
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+	
+      <button type="submit">finish</button>
+      
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('keyx').style.display='none'" class="cancelbtn">Cancel</button>
+     
+    </div>
+  </form>
+</div>
+
+	
+	<!---start search-->
+	<button onclick="document.getElementById('keyy').style.display='block'" style="width:auto;">search</button>
+	 <div id="keyy" class="modal">
+  
+  <form class="modal-content animate"  method="get" action="/searchkeys" >
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('keyy').style.display='none'" class="close" title="Close Modal">&times;</span>
+      
+    </div>
+
+    <div class="containerx">
+<!--     
+      <input type="text" placeholder="Enter your name" name="uname" required>
+
+    
+	   <input type="tel" placeholder="enter your phone "
+                      
+                   onkeypress="return onlyNumberKey(event)" maxlength="11" 
+                   size="30%" style="max-width:100%;"required />  
+        
+     <input type="text" placeholder="enter id "required
+                   onkeypress="return onlyNumberKey(event)" 
+                   maxlength="11" 
+                   size="50%" /> 
+				    -->
+				   
+				   
+				  
+				 <label style="color:black"> select place</label><br>
+				   <select style="width:50%; " name="place" required>
+					
+					 
+					 <option> lab 300</option>
+					 <option> lab 301</option>	
+					 <option> lab 302</option>
+					 <option> lab 303</option>
+					 <option> lab 304</option>
+					 <option> lab 305</option>
+					 <option> lab 306</option>
+					<option> lab 400</option>
+					<option> lab 401</option>
+					<option> lab 402</option>
+					<option> lab 403</option>
+					<option> lab 404</option>
+					<option> class room 1</option>
+					<option> class room 2</option>
+					<option> class room 3 </option>
+					<option> class room  4</option>
+						<option> class room  5</option>
+						<option>other</option>
+				 </select>
+				   
+
+				<br> <label style="color:black"> select number of keys</label><br>
+				 <select style="width:50%; " name="numberofkeys" required><br>
+			  
+				   
+				   <option> 1</option>
+				   <option> 2</option>
+				   <option> 3</option>
+				   <option> 4</option>
+				   <option> 5</option>
+				   <option> 6</option>
+				   <option> 7</option>
+				  <option> 8</option>
+				  <option> 9</option>
+				  <option> 10</option>
+				  <option> 11</option>
+				  <option> 12</option>
+				  <option> other </option>
+				  
+			   </select>
+				 
+
+				     <input type="date" id="time" name="time">
+					
+				  <textarea id="Notes" name="Notes" rows="4" cols="25">
+				  
+				  enter your notes
+
+                    </textarea>
+				   
+				   
+				   
+				   
+				   
+				   
+	
+      <button type="submit">finish</button>
+      
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('keyy').style.display='none'" class="cancelbtn">Cancel</button>
+   
+    </div>
+  </form>
+</div>
+
+	<!--end key-->
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+     
+    </div>
+  </div>
+</div>
+
+
+                                  <!--mobile-->
+ <div class="cardlost">
+  <div class="divmg">
+    <div class="firstdv">
+     <img src="img/zb.jpg" style="max-width:100%; height:450px; ">
+    </div>
+    <div class="backdv">
+	
+	
+	
+	<button onclick="document.getElementById('mobx').style.display='block'" style="width:auto;">add</button>
+	 <div id="mobx" class="modal">
+  
+  <form class="modal-content animate"  name="" method="post" action="/addmobile"  >
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('mobx').style.display='none'" class="close" title="Close Modal">&times;</span>
+      
+    </div>
+
+    <div class="containerx">
+      <label for="uname"><b>yourname</b></label>
+      <input type="text" placeholder="Enter your name" name="uname" required>
+
+      <label for="psw"><b>id</b></label>
+	   <input type="tel" placeholder="enter your phone " X
+                      
+                   onkeypress="return onlyNumberKey(event)" maxlength="11" 
+                   size="30%" style="max-width:100%;"  name="phone" required />  
+        
+     <input type="text" placeholder="enter id " name="idmobile" required
+                   onkeypress="return onlyNumberKey(event)" 
+                   maxlength="11" 
+                   size="50%" /> 
+				   
+				   
+				     <label style="color:black">  Type </label>
+				   <select style="width:90%; display:block; margin:5px;" name="tybe" required>
+					<option> samsung</option>
+					<option>iphone </option>
+					<option>hawawi</option>
+					<option>shawmi </option>
+					<option>oppo </option>
+					<option> infinix</option>
+					
+					
+				 </select>
+				 
+				     <label style="color:black">  memory </label>
+				   <select style="width:90%; display:block; margin:5px;" name="size" required>
+					<option> 8g</option>
+					<option>16g </option>
+					<option>32g</option>
+					<option>64g </option>
+					<option>128g </option>
+					
+					
+					
+				 </select>
+				   
+				   
+				   
+				   
+				   
+				    <label style="color:black"> select color</label>
+				   <select style="width:50%; " name="color"  required>
+					<option> red</option>
+					<option>brown </option>
+					<option> black</option>
+					<option> green </option>
+					<option> blue </option>
+					<option> white</option>
+					<option> yellow</option>
+					<option> orange </option>
+					<option> pink</option>
+					
+				 </select>
+				 <label style="color:black"> select place</label>
+				   <select style="width:50%; " name="place" required>
+				
+					 
+					 <option> lab 300</option>
+					 <option> lab 301</option>
+					 <option> lab 302</option>
+					 <option> lab 303</option>
+					 <option> lab 304</option>
+					 <option> lab 305</option>
+					 <option> lab 306</option>
+					<option> lab 400</option>
+					<option> lab 401</option>
+					<option> lab 402</option>
+					<option> lab 403</option>
+					<option> lab 404</option>
+					<option> class room 1</option>
+					<option> class room 2</option>
+					<option> class room 3 </option>
+					<option> class room  4</option>
+						<option> class room  5</option>
+						<option>other</option>
+				 </select>
+				   
+				   
+				    
+				   <input type ="file" name="add image" style="background-color:yellow; color:black;" >
+
+				    <input type="date" id="time" name="time">
+					
+				  <textarea id="Notes" name="Notes" rows="4" cols="25">
+				  
+				  enter your notes
+
+                    </textarea>
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+	
+      <button type="submit">finish</button>
+      
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('mobx').style.display='none'" class="cancelbtn">Cancel</button>
+     
+    </div>
+  </form>
+</div>
+
+	
+	<!---start search-->
+	<button onclick="document.getElementById('moby').style.display='block'" style="width:auto;">search</button>
+	 <div id="moby" class="modal">
+  
+  <form class="modal-content animate"  method="GET" action="/searchmobile" >
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('moby').style.display='none'" class="close" title="Close Modal">&times;</span>
+      
+    </div>
+
+    <div class="containerx">
+    
+      <!-- <input type="text" placeholder="Enter your name" name="uname" required>
+
+    
+	   <input type="tel" placeholder="enter your phone "
+                      
+                   onkeypress="return onlyNumberKey(event)" maxlength="11" 
+                   size="30%" style="max-width:100%;"required />  
+        
+     <input type="text" placeholder="enter id "required
+                   onkeypress="return onlyNumberKey(event)" 
+                   maxlength="11" 
+                   size="50%" /> 
+				    -->
+				    <label style="color:black">  Type </label>
+				   <select style="width:90%; display:block; margin:5px;" name="tybe" required>
+					<option> samsung</option>
+					<option>iphone </option>
+					<option>hawawi</option>
+					<option>shawmi </option>
+					<option>oppo </option>
+					<option> infinix</option>
+					
+					
+				 </select>
+				 
+				     <label style="color:black">  memory </label>
+				   <select style="width:90%; display:block; margin:5px;" name="size" required>
+					<option>8G</option>
+					<option>16G </option>
+					<option>32G</option>
+					<option>64G </option>
+					<option>128G </option>
+					
+					
+					
+				 </select>
+				   
+				   
+				   
+				   
+				   
+				    <label style="color:black"> select color</label>
+				   <select style="width:50%; " name="color" required>
+					<option> red</option>
+					<option>brown </option>
+					<option> black</option>
+					<option> green </option>
+					<option> blue </option>
+					<option> white</option>
+					<option> yellow</option>
+					<option> orange </option>
+					<option> pink</option>
+					
+				 </select>
+				 <br>
+				 <label style="color:black"> select place</label>
+				   <select style="width:50%; " name="place" required>
+					
+					 
+					 <option> lab 300</option>
+					 <option> lab 301</option>
+					 <option> lab 302</option>
+					 <option> lab 303</option>
+					 <option> lab 304</option>
+					 <option> lab 305</option>
+					 <option> lab 306</option>
+					<option> lab 400</option>
+					<option> lab 401</option>
+					<option> lab 402</option>
+					<option> lab 403</option>
+					<option> lab 404</option>
+					<option> class room 1</option>
+					<option> class room 2</option>
+					<option> class room 3 </option>
+					<option> class room  4</option>
+						<option> class room  5</option>
+						<option>other</option>
+				 </select>
+				 <br>
+				     <!-- <input type="date" id="time" name="time"> -->
+					
+				  <textarea id="Notes" name="Notes" rows="4" cols="25">
+				  
+				  enter your notes
+
+                    </textarea>
+				   
+				   
+				   
+				   
+				   
+				   
+	
+      <button type="submit">finish</button>
+      
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('moby').style.display='none'" class="cancelbtn">Cancel</button>
+   
+    </div>
+  </form>
+</div>
+
+	
+
+	
+      
+    </div>
+  </div>
+</div>
+
+
+                                  <!--start Book-->
+ <div class="cardlost">
+  <div class="divmg">
+    <div class="firstdv">
+      <img src="img/zv.jpg" style="max-width:100%; height:450px; ">
+    </div>
+    <div class="backdv">
+	
+	
+	
+	
+	
+	
+	<button onclick="document.getElementById('bookx').style.display='block'" style="width:auto;">add</button>
+	 <div id="bookx" class="modal">
+  
+  <form class="modal-content animate" name="books"  method="post" action="/addbooks">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('bookx').style.display='none'" class="close" title="Close Modal">&times;</span>
+      
+    </div>
+
+    <div class="containerx">
+      <label for="uname"><b>yourname</b></label>
+      <input type="text" placeholder="Enter your name" name="uname" required>
+
+      <label for="psw"><b>id</b></label>
+	   <input type="tel" placeholder="enter your phone "
+                      
+                   onkeypress="return onlyNumberKey(event)" maxlength="11" 
+                   size="30%" style="max-width:100%;" name="phone" required />  
+        
+     <input type="text" placeholder="enter id " name="idname" required
+                   onkeypress="return onlyNumberKey(event)" 
+                   maxlength="11" 
+                   size="50%" /> 
+				   
+				   
+				    <input type="text" placeholder="Enter name of book" name="bookname" required>
+				    
+				   
+				   
+				   
+				   
+				   
+				    <label style="color:black"> select color</label>
+				   <select style="width:50%; " name="color" required>
+					<option> red</option>
+					<option>brown </option>
+					<option> black</option>
+					<option> green </option>
+					<option> blue </option>
+					<option> white</option>
+					<option> yellow</option>
+					<option> orange </option>
+					<option> pink</option>
+					
+				 </select>
+				 <label style="color:black"> select place</label>
+				   <select style="width:50%; " name="place" required>
+					
+					 
+					 <option> lab 300</option>
+					 <option> lab 301</option>
+					 <option> lab 302</option>
+					 <option> lab 303</option>
+					 <option> lab 304</option>
+					 <option> lab 305</option>
+					 <option> lab 306</option>
+					<option> lab 400</option>
+					<option> lab 401</option>
+					<option> lab 402</option>
+					<option> lab 403</option>
+					<option> lab 404</option>
+					<option> class room 1</option>
+					<option> class room 2</option>
+					<option> class room 3 </option>
+					<option> class room  4</option>
+						<option> class room  5</option>
+						<option>other</option>
+				 </select>
+				   
+				   
+				    
+				   <input type ="file" name="addimage" style="background-color:yellow; color:black;" >
+
+				    <input type="date" id="time" name="time">
+					
+				  <textarea id="Notes" name="Notes" rows="4" cols="25">
+				  
+				  enter your notes
+
+                    </textarea>
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+	
+      <button type="submit">finish</button>
+      
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('bookx').style.display='none'" class="cancelbtn">Cancel</button>
+     
+    </div>
+  </form>
+</div>
+
+	
+	<!---start search-->
+	
+	
+	<button onclick="document.getElementById('booky').style.display='block'" style="width:auto;">search</button>
+	 <div id="booky" class="modal">
+  
+  <form class="modal-content animate"  method="GET" action="/searchbooks" >
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('booky').style.display='none'" class="close" title="Close Modal">&times;</span>
+      
+    </div>
+
+    <div class="containerx">
+    
+      <!-- <input type="text" placeholder="Enter your name" name="uname" required>
+
+    
+	   <input type="tel" placeholder="enter your phone "
+                      
+                   onkeypress="return onlyNumberKey(event)" maxlength="11" 
+                   size="30%" style="max-width:100%;"required />  
+        
+     <input type="text" placeholder="enter id "required
+                   onkeypress="return onlyNumberKey(event)" 
+                   maxlength="11" 
+                   size="50%" /> 
+				    -->
+				 
+				     <input type="text" placeholder="Enter name of book" name="bookname" required>
+				    
+				   
+				   
+				   
+				    <label style="color:black"> select color</label>
+				   <select style="width:50%; " name="color" required>
+					<option> red</option>
+					<option>brown </option>
+					<option> black</option>
+					<option> green </option>
+					<option> blue </option>
+					<option> white</option>
+					<option> yellow</option>
+					<option> orange </option>
+					<option> pink</option>
+					
+				 </select><br>
+				 <label style="color:black"> select place</label>
+				   <select style="width:50%; " name="place" required>
+					
+					 
+					 <option> lab 300</option>
+					 <option> lab 301</option>
+					 <option> lab 302</option>
+					 <option> lab 303</option>
+					 <option> lab 304</option>
+					 <option> lab 305</option>
+					 <option> lab 306</option>
+					<option> lab 400</option>
+					<option> lab 401</option>
+					<option> lab 402</option>
+					<option> lab 403</option>
+					<option> lab 404</option>
+					<option> class room 1</option>
+					<option> class room 2</option>
+					<option> class room 3 </option>
+					<option> class room  4</option>
+						<option> class room  5</option>
+						<option>other</option>
+				 </select><br>
+				   
+				     <!-- <input type="date" id="time" name="time"> -->
+					
+				  <textarea id="Notes" name="Notes" rows="4" cols="25">
+				  
+				  enter your notes
+
+                    </textarea>
+				   
+				   
+				   
+				   
+				   
+				   
+	
+      <button type="submit">finish</button>
+      
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('booky').style.display='none'" class="cancelbtn">Cancel</button>
+   
+    </div>
+  </form>
+</div>
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+      
+    </div>
+  </div>
+</div>
+
+<!-- laptop-->
+   
+ <div class="cardlost">
+  <div class="divmg">
+    <div class="firstdv">
+     <img src="img/cv.jpg" style="max-width:100%; height:450px; ">
+    </div>
+    <div class="backdv">
+	
+	
+	
+	
+	
+	
+	
+	<button onclick="document.getElementById('lapx').style.display='block'" style="width:auto;">add</button>
+	 <div id="lapx" class="modal">
+  
+  <form class="modal-content animate"  method="posts">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('lapx').style.display='none'" class="close" title="Close Modal">&times;</span>
+      
+    </div>
+
+    <div class="containerx">
+      <label for="uname"><b>yourname</b></label>
+      <input type="text" placeholder="Enter your name" name="uname" required>
+
+      <label for="psw"><b>id</b></label>
+	   <input type="tel" placeholder="enter your phone "
+                      
+                   onkeypress="return onlyNumberKey(event)" maxlength="11" 
+                   size="30%" style="max-width:100%;"required />  
+        
+     <input type="text" placeholder="enter id "required
+                   onkeypress="return onlyNumberKey(event)" 
+                   maxlength="11" 
+                   size="50%" /> 
+				   
+				   
+				     <label style="color:black">  Type </label>
+				   <select style="width:90%; display:block; margin:5px;" required>
+					<option>  Hp </option>
+					<option>apple </option>
+					<option>samsung</option>
+					<option>Dell </option>
+					<option>lenovo </option>
+					
+					
+					
+				 </select>
+				 
+				 
+				     <label style="color:black">  core i </label>
+				   <select style="width:90%; display:block; margin:5px;" required>
+					<option>  3 </option>
+					<option>5 </option>
+					<option>7</option>
+					<option>9 </option>
+				
+					
+					
+					
+				 </select>
+				  <label style="color:black">  Gen </label>
+				   <select style="width:90%; display:block; margin:5px;" required>
+					<option>3 th </option>
+			
+					<option>4 th</option>
+					<option>5 th </option>
+					<option>6 th </option>
+					<option>  7 th </option>
+				    	<option>8 th </option>
+					
+					
+					
+				 </select>
+				 
+				 
+				     <label style="color:black">  memory </label>
+				   <select style="width:90%; display:block; margin:5px;" required>
+					<option> 100g</option>
+					<option>500g </option>
+					<option>1000g</option>
+					
+					
+					
+				 </select>
+				   
+				   
+				   
+				   
+				   
+				    <label style="color:black"> select color</label>
+				   <select style="width:50%; " required>
+					<option> red</option>
+					<option>brown </option>
+					<option> black</option>
+					<option> green </option>
+					<option> blue </option>
+					<option> white</option>
+					<option> yellow</option>
+					<option> orange </option>
+					<option> pink</option>
+					
+				 </select>
+				 <label style="color:black"> select place</label>
+				   <select style="width:50%; " required>
+					
+					 
+					 <option> lab 300</option>
+					 <option> lab 301</option>
+					 <option> lab 302</option>
+					 <option> lab 303</option>
+					 <option> lab 304</option>
+					 <option> lab 305</option>
+					 <option> lab 306</option>
+					<option> lab 400</option>
+					<option> lab 401</option>
+					<option> lab 402</option>
+					<option> lab 403</option>
+					<option> lab 404</option>
+					<option> class room 1</option>
+					<option> class room 2</option>
+					<option> class room 3 </option>
+					<option> class room  4</option>
+						<option> class room  5</option>
+						<option>other</option>
+				 </select>
+				   
+				   
+				    
+				   <input type ="file" name="add image" style="background-color:yellow; color:black;" >
+
+				    <input type="date" id="time" name="time">
+					
+				  <textarea id="Notes" name="Notes" rows="4" cols="25">
+				  
+				  enter your notes
+
+                    </textarea>
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+	
+      <button type="submit">finish</button>
+      
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('lapx').style.display='none'" class="cancelbtn">Cancel</button>
+     
+    </div>
+  </form>
+</div>
+
+	
+	<!---start search-->
+	<button onclick="document.getElementById('lapy').style.display='block'" style="width:auto;">search</button>
+	 <div id="lapy" class="modal">
+  
+  <form class="modal-content animate"  method="posts">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('lapy').style.display='none'" class="close" title="Close Modal">&times;</span>
+      
+    </div>
+
+    <div class="containerx">
+    
+      <!-- <input type="text" placeholder="Enter your name" name="uname" required>
+
+    
+	   <input type="tel" placeholder="enter your phone "
+                      
+                   onkeypress="return onlyNumberKey(event)" maxlength="11" 
+                   size="30%" style="max-width:100%;"required />  
+        
+     <input type="text" placeholder="enter id "required
+                   onkeypress="return onlyNumberKey(event)" 
+                   maxlength="11" 
+                   size="50%" />  -->
+				    
+				     <label style="color:black">  Type </label>
+				   <select style="width:90%; display:block; margin:5px;" required>
+					<option>  Hp </option>
+					<option>apple </option>
+					<option>samsung</option>
+					<option>Dell </option>
+					<option>lenovo </option>
+					
+					
+					
+				 </select><br>
+				 
+				 
+				     <label style="color:black">  core i </label>
+				   <select style="width:90%; display:block; margin:5px;" required>
+					<option>  3 </option>
+					<option>5 </option>
+					<option>7</option>
+					<option>9 </option>
+				
+					
+					
+					
+				 </select><br>
+				  <label style="color:black">  Gen </label>
+				   <select style="width:90%; display:block; margin:5px;" required>
+					<option>3 th </option>
+			
+					<option>4 th</option>
+					<option>5 th </option>
+					<option>6 th </option>
+					<option>  7 th </option>
+				    	<option>8 th </option>
+					
+					
+					
+				 </select><br>
+				 
+				 
+				     <label style="color:black">  hard </label>
+				   <select style="width:90%; display:block; margin:5px;" required>
+					<option> 100g</option>
+					<option>500g </option>
+					<option>1000g</option>
+					
+					
+					
+				 </select>
+				   
+				   
+				    
+				 
+				     <label style="color:black">  RAM </label>
+				   <select style="width:90%; display:block; margin:5px;" required>
+					<option> 8G</option>
+					<option>16G </option>
+					<option>32G</option>
+					<option>64G </option>
+					<option>128G </option>
+					
+					
+					
+				 </select>
+				   
+				   
+				   
+				   
+				 <br>
+				    <label style="color:black"> select color</label>
+				   <select style="width:50%; " required>
+					<option> red</option>
+					<option>brown </option>
+					<option> black</option>
+					<option> green </option>
+					<option> blue </option>
+					<option> white</option>
+					<option> yellow</option>
+					<option> orange </option>
+					<option> pink</option>
+					
+				 </select><br>
+				 <label style="color:black"> select place</label>
+				   <select style="width:50%; " required>
+					
+					 
+					 <option> lab 300</option>
+					 <option> lab 301</option>
+					 <option> lab 302</option>
+					 <option> lab 303</option>
+					 <option> lab 304</option>
+					 <option> lab 305</option>
+					 <option> lab 306</option>
+					<option> lab 400</option>
+					<option> lab 401</option>
+					<option> lab 402</option>
+					<option> lab 403</option>
+					<option> lab 404</option>
+					<option> class room 1</option>
+					<option> class room 2</option>
+					<option> class room 3 </option>
+					<option> class room  4</option>
+						<option> class room  5</option>
+						<option>other</option>
+				 </select><br>
+				   
+				     <!-- <input type="date" id="time" name="time"> -->
+					
+				  <textarea id="Notes" name="Notes" rows="4" cols="25">
+				  
+				  enter your notes
+
+                    </textarea>
+				   
+				   
+				   
+				   
+				   
+				   
+	
+      <button type="submit">finish</button>
+      
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('lapy').style.display='none'" class="cancelbtn">Cancel</button>
+   
+    </div>
+  </form>
+</div>
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+     
+    </div>
+  </div>
+</div>
+
+ 
+ <!-- start glass-->
+ 
+ 
+ <div class="cardlost">
+  <div class="divmg">
+    <div class="firstdv">
+       <img src="img/cc.jpg" style="max-width:100%; height:450px; ">
+    </div>
+    <div class="backdv">
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<button onclick="document.getElementById('glasx').style.display='block'" style="width:auto;">add</button>
+	 <div id="glasx" class="modal">
+  
+  <form class="modal-content animate"  method="post" name="glasses" action="/addglasses"  >
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('glasx').style.display='none'" class="close" title="Close Modal">&times;</span>
+      
+    </div>
+
+    <div class="containerx">
+      <label for="uname"><b>yourname</b></label>
+      <input type="text" placeholder="Enter your name" name="uname" required>
+
+      <label for="psw"><b>id</b></label>
+	   <input type="tel" placeholder="enter your phone "
+                      
+                   onkeypress="return onlyNumberKey(event)" maxlength="11" 
+                   size="30%" style="max-width:100%;" name="phone" required />  
+        
+     <input type="text" placeholder="enter id "  name="idname" required
+                   onkeypress="return onlyNumberKey(event)" 
+                   maxlength="11" 
+                   size="50%" /> 
+				   
+				   
+			
+				    
+				   
+				   
+				   
+				   
+				   
+				    <label style="color:black"> select color</label>
+				   <select style="width:50%; " name="color" required>
+					<option> red</option>
+					<option>brown </option>
+					<option> black</option>
+					<option> green </option>
+					<option> blue </option>
+					<option> white</option>
+					<option> yellow</option>
+					<option> orange </option>
+					<option> pink</option>
+					
+				 </select>
+				 <label style="color:black"> select place</label>
+				   <select style="width:50%; " name="place" required>
+					
+					 
+					 <option> lab 300</option>
+					 <option> lab 301</option>
+					 <option> lab 302</option>
+					 <option> lab 303</option>
+					 <option> lab 304</option>
+					 <option> lab 305</option>
+					 <option> lab 306</option>
+					<option> lab 400</option>
+					<option> lab 401</option>
+					<option> lab 402</option>
+					<option> lab 403</option>
+					<option> lab 404</option>
+					<option> class room 1</option>
+					<option> class room 2</option>
+					<option> class room 3 </option>
+					<option> class room  4</option>
+						<option> class room  5</option>
+						<option>other</option>
+				 </select>
+				   
+				   
+				    
+				   <input type ="file" name="add image" style="background-color:yellow; color:black;" >
+
+				    <input type="date" id="time" name="time">
+					
+				  <textarea id="Notes" name="Notes" rows="4" cols="25">
+				  
+				  enter your notes
+
+                    </textarea>
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+	
+      <button type="submit">finish</button>
+      
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('glasx').style.display='none'" class="cancelbtn">Cancel</button>
+     
+    </div>
+  </form>
+</div>
+
+	
+	<!---start search-->
+	
+	
+	<button onclick="document.getElementById('glasy').style.display='block'" style="width:auto;">search</button>
+	 <div id="glasy" class="modal">
+  
+  <form class="modal-content animate"  method="GET" action="/searchglasses">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('glasy').style.display='none'" class="close" title="Close Modal">&times;</span>
+      
+    </div>
+
+    <div class="containerx">
+<!--     
+      <input type="text" placeholder="Enter your name" name="uname" required>
+
+    
+	   <input type="tel" placeholder="enter your phone "
+                      
+                   onkeypress="return onlyNumberKey(event)" maxlength="11" 
+                   size="30%" style="max-width:100%;"required />  
+        
+     <input type="text" placeholder="enter id "required
+                   onkeypress="return onlyNumberKey(event)" 
+                   maxlength="11" 
+                   size="50%" /> 
+				   
+				 
+				     <input type="text" placeholder="Enter name of book" name="uname" required>
+				    
+				    -->
+				   
+				   
+				    <label style="color:black"> select color</label>
+				   <select style="width:50%; " name="color" required>
+					<option> red</option>
+					<option>brown </option>
+					<option> black</option>
+					<option> green </option>
+					<option> blue </option>
+					<option> white</option>
+					<option> yellow</option>
+					<option> orange </option>
+					<option> pink</option>
+					
+				 </select><br>
+				 <label style="color:black"> select place</label>
+				   <select style="width:50%; " name="place" required>
+					
+					 
+					 <option> lab 300</option>
+					 <option> lab 301</option>
+					 <option> lab 302</option>
+					 <option> lab 303</option>
+					 <option> lab 304</option>
+					 <option> lab 305</option>
+					 <option> lab 306</option>
+					<option> lab 400</option>
+					<option> lab 401</option>
+					<option> lab 402</option>
+					<option> lab 403</option>
+					<option> lab 404</option>
+					<option> class room 1</option>
+					<option> class room 2</option>
+					<option> class room 3 </option>
+					<option> class room  4</option>
+						<option> class room  5</option>
+						<option>other</option>
+				 </select><br>
+				   
+				     <!-- <input type="date" id="time" name="time"> -->
+					
+				  <textarea id="Notes" name="Notes" rows="4" cols="25">
+				  
+				  enter your notes
+
+                    </textarea>
+				   
+				   
+				   
+				   
+				   
+				   
+	
+      <button type="submit">finish</button>
+      
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('glasy').style.display='none'" class="cancelbtn">Cancel</button>
+   
+    </div>
+  </form>
+</div>
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+      
+    </div>
+  </div>
+</div>
+
+
+
+  <!--T shirt-->
+
+
+
+ <div class="cardlost">
+  <div class="divmg">
+    <div class="firstdv">
+<img src="img/qw.jpg" style="max-width:100%; height:450px; ">
+    </div>
+    <div class="backdv">
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<button onclick="document.getElementById('shirtx').style.display='block'" style="width:auto;">add</button>
+	 <div id="shirtx" class="modal">
+  
+  <form class="modal-content animate"  method="posts">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('shirtx').style.display='none'" class="close" title="Close Modal">&times;</span>
+      
+    </div>
+
+    <div class="containerx">
+      <label for="uname"><b>yourname</b></label>
+      <input type="text" placeholder="Enter your name" name="uname" required>
+
+      <label for="psw"><b>id</b></label>
+	   <input type="tel" placeholder="enter your phone "
+                      
+                   onkeypress="return onlyNumberKey(event)" maxlength="11" 
+                   size="30%" style="max-width:100%;"required />  
+        
+     <input type="text" placeholder="enter id "required
+                   onkeypress="return onlyNumberKey(event)" 
+                   maxlength="11" 
+                   size="50%" /> 
+				   
+				   
+			
+				    
+				   
+				   
+				   
+				   
+				   
+				    <label style="color:black"> select color</label>
+				   <select style="width:50%; " required>
+					<option> red</option>
+					<option>brown </option>
+					<option> black</option>
+					<option> green </option>
+					<option> blue </option>
+					<option> white</option>
+					<option> yellow</option>
+					<option> orange </option>
+					<option> pink</option>
+					
+				 </select>
+				 <label style="color:black"> select place</label>
+				   <select style="width:50%; " required>
+					
+					 
+					 <option> lab 300</option>
+					 <option> lab 301</option>
+					 <option> lab 302</option>
+					 <option> lab 303</option>
+					 <option> lab 304</option>
+					 <option> lab 305</option>
+					 <option> lab 306</option>
+					<option> lab 400</option>
+					<option> lab 401</option>
+					<option> lab 402</option>
+					<option> lab 403</option>
+					<option> lab 404</option>
+					<option> class room 1</option>
+					<option> class room 2</option>
+					<option> class room 3 </option>
+					<option> class room  4</option>
+						<option> class room  5</option>
+						<option>other</option>
+				 </select>
+				   
+				   
+				    
+				   <input type ="file" name="add image" style="background-color:yellow; color:black;" >
+
+				    <input type="date" id="time" name="time">
+					
+				  <textarea id="Notes" name="Notes" rows="4" cols="25">
+				  
+				  enter your notes
+
+                    </textarea>
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+	
+      <button type="submit">finish</button>
+      
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('shirtx').style.display='none'" class="cancelbtn">Cancel</button>
+     
+    </div>
+  </form>
+</div>
+
+	
+	<!---start search-->
+	
+	
+	<button onclick="document.getElementById('shirty').style.display='block'" style="width:auto;">search</button>
+	 <div id="shirty" class="modal">
+  
+  <form class="modal-content animate"  method="posts">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('shirty').style.display='none'" class="close" title="Close Modal">&times;</span>
+      
+    </div>
+
+    <div class="containerx">
+    
+      <!-- <input type="text" placeholder="Enter your name" name="uname" required>
+
+    
+	   <input type="tel" placeholder="enter your phone "
+                      
+                   onkeypress="return onlyNumberKey(event)" maxlength="11" 
+                   size="30%" style="max-width:100%;"required />  
+        
+     <input type="text" placeholder="enter id "required
+                   onkeypress="return onlyNumberKey(event)" 
+                   maxlength="11" 
+                   size="50%" /> 
+				   
+				 
+				     <input type="text" placeholder="Enter name of book" name="uname" required>
+				     -->
+				   
+				   
+				   
+				    <label style="color:black"> select color</label>
+				   <select style="width:50%; " required>
+					<option> red</option>
+					<option>brown </option>
+					<option> black</option>
+					<option> green </option>
+					<option> blue </option>
+					<option> white</option>
+					<option> yellow</option>
+					<option> orange </option>
+					<option> pink</option>
+					
+				 </select><br>
+				 <label style="color:black"> select place</label>
+				   <select style="width:50%; " required>
+					
+					 
+					 <option> lab 300</option>
+					 <option> lab 301</option>
+					 <option> lab 302</option>
+					 <option> lab 303</option>
+					 <option> lab 304</option>
+					 <option> lab 305</option>
+					 <option> lab 306</option>
+					<option> lab 400</option>
+					<option> lab 401</option>
+					<option> lab 402</option>
+					<option> lab 403</option>
+					<option> lab 404</option>
+					<option> class room 1</option>
+					<option> class room 2</option>
+					<option> class room 3 </option>
+					<option> class room  4</option>
+						<option> class room  5</option>
+						<option>other</option>
+				 </select><br>
+				   
+				     <!-- <input type="date" id="time" name="time"> -->
+					
+				  <textarea id="Notes" name="Notes" rows="4" cols="25">
+				  
+				  enter your notes
+
+                    </textarea>
+				   
+				   
+				   
+				   
+				   
+				   
+	
+      <button type="submit">finish</button>
+      
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('shirty').style.display='none'" class="cancelbtn">Cancel</button>
+   
+    </div>
+  </form>
+</div>
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+      
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- flash memory-->
+
+
+
+
+ <div class="cardlost">
+  <div class="divmg">
+    <div class="firstdv">
+       <img src="img/zz.jpg" style="max-width:100%; height:450px; ">
+    </div>
+    <div class="backdv">
+	
+	
+	
+	
+	
+	
+	
+	<button onclick="document.getElementById('memox').style.display='block'" style="width:auto;">add</button>
+	 <div id="memox" class="modal">
+  
+  <form class="modal-content animate"  method="post" name="usb" action="/addusb"  > 
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('memox').style.display='none'" class="close" title="Close Modal">&times;</span>
+      
+    </div>
+
+    <div class="containerx">
+      <label for="uname"><b>yourname</b></label>
+      <input type="text" placeholder="Enter your name" name="uname" required>
+
+      <label for="psw"><b>id</b></label>
+	   <input type="tel" placeholder="enter your phone "
+                      
+                   onkeypress="return onlyNumberKey(event)" maxlength="11" 
+                   size="30%" style="max-width:100%;" name="phone" required />  
+        
+     <input type="text" placeholder="enter id " name="idname" required
+                   onkeypress="return onlyNumberKey(event)" 
+                   maxlength="11" 
+                   size="50%" /> 
+				   
+				   
+				     <label style="color:black">  Type </label>
+				   <select style="width:90%; display:block; margin:5px;" name="tybe" required>
+					<option> SanDisk </option>
+					<option>Samsung</option>
+					<option>Kingston</option>
+					<option>Silicon </option>
+					<option>PNY Turbo </option>
+					
+					
+					
+				 </select>
+				 
+				 
+				     
+					
+				
+				 
+				     <label style="color:black">  memory </label>
+				   <select style="width:90%; display:block; margin:5px;" name="gb" required>
+					<option> 4G</option>
+					<option>8G </option>
+					<option>16G</option>
+						<option>32G</option>
+							<option>64G</option>
+	                 <option>128G</option>
+					
+					
+				 </select>
+				   
+				   
+				   
+				   
+				   
+				    <label style="color:black"> select color</label>
+				   <select style="width:50%; " name="color" required>
+					<option> red</option>
+					<option>brown </option>
+					<option> black</option>
+					<option> green </option>
+					<option> blue </option>
+					<option> white</option>
+					<option> yellow</option>
+					<option> orange </option>
+					<option> pink</option>
+					
+				 </select>
+				 <label style="color:black"> select place</label>
+				   <select style="width:50%; " name="place" required>
+					
+					 
+					 <option> lab 300</option>
+					 <option> lab 301</option>
+					 <option> lab 302</option>
+					 <option> lab 303</option>
+					 <option> lab 304</option>
+					 <option> lab 305</option>
+					 <option> lab 306</option>
+					<option> lab 400</option>
+					<option> lab 401</option>
+					<option> lab 402</option>
+					<option> lab 403</option>
+					<option> lab 404</option>
+					<option> class room 1</option>
+					<option> class room 2</option>
+					<option> class room 3 </option>
+					<option> class room  4</option>
+						<option> class room  5</option>
+						<option>other</option>
+				 </select>
+				   
+				   
+				    
+				   <input type ="file" name="add image" style="background-color:yellow; color:black;" >
+
+				    <input type="date" id="time" name="time">
+					
+				  <textarea id="Notes" name="Notes" rows="4" cols="25">
+				  
+				  enter your notes
+
+                    </textarea>
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+	
+      <button type="submit">finish</button>
+      
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('memox').style.display='none'" class="cancelbtn">Cancel</button>
+     
+    </div>
+  </form>
+</div>
+
+	
+	<!---start search-->
+	<button onclick="document.getElementById('memoy').style.display='block'" style="width:auto;">search</button>
+	 <div id="memoy" class="modal">
+  
+  <form class="modal-content animate"  method="GET" action="/searchusb">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('memoy').style.display='none'" class="close" title="Close Modal">&times;</span>
+      
+    </div>
+
+    <div class="containerx">
+    
+      <!-- <input type="text" placeholder="Enter your name" name="uname" required>
+
+    
+	   <input type="tel" placeholder="enter your phone "
+                      
+                   onkeypress="return onlyNumberKey(event)" maxlength="11" 
+                   size="30%" style="max-width:100%;"required />  
+        
+     <input type="text" placeholder="enter id "required
+                   onkeypress="return onlyNumberKey(event)" 
+                   maxlength="11" 
+                   size="50%" /> 
+				     -->
+				    
+				     <label style="color:black">  Type </label>
+				   <select style="width:90%; display:block; margin:5px;" name="tybe" required>
+					<option> SanDisk </option>
+					<option>Samsung</option>
+					<option>Kingston</option>
+					<option>Silicon </option>
+					<option>PNY Turbo </option>
+					
+					
+					
+				 </select><br>
+				 
+				 
+				     
+					
+				
+				 
+				     <label style="color:black">  memory </label>
+				   <select style="width:90%; display:block; margin:5px;" name="gb"  required>
+					<option> 4G</option>
+					<option>8G </option>
+					<option>16G</option>
+						<option>32G</option>
+							<option>64G</option>
+	                 <option>128G</option>
+					
+					
+				 </select><br>
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+				    <label style="color:black"> select color</label>
+				   <select style="width:50%; " name="color" required>
+					<option> red</option>
+					<option>brown </option>
+					<option> black</option>
+					<option> green </option>
+					<option> blue </option>
+					<option> white</option>
+					<option> yellow</option>
+					<option> orange </option>
+					<option> pink</option>
+					
+				 </select><br>
+				 <label style="color:black"> select place</label>
+				   <select style="width:50%; " name="place" required>
+					
+					 
+					 <option> lab 300</option>
+					 <option> lab 301</option>
+					 <option> lab 302</option>
+					 <option> lab 303</option>
+					 <option> lab 304</option>
+					 <option> lab 305</option>
+					 <option> lab 306</option>
+					<option> lab 400</option>
+					<option> lab 401</option>
+					<option> lab 402</option>
+					<option> lab 403</option>
+					<option> lab 404</option>
+					<option> class room 1</option>
+					<option> class room 2</option>
+					<option> class room 3 </option>
+					<option> class room  4</option>
+						<option> class room  5</option>
+						<option>other</option>
+				 </select>
+				   
+				     <!-- <input type="date" id="time" name="time"> -->
+					
+				  <textarea id="Notes" name="Notes" rows="4" cols="25">
+				  
+				  enter your notes
+
+                    </textarea>
+				   
+				   
+				   
+				   
+				   
+				   
+	
+      <button type="submit">finish</button>
+      
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('memoy').style.display='none'" class="cancelbtn">Cancel</button>
+   
+    </div>
+  </form>
+</div>
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+     
+    </div>
+  </div>
+</div>
+
+
+
+<!--hand free-->
+
+ 
+ <div class="cardlost">
+  <div class="divmg">
+    <div class="firstdv">
+      <img src="img/xc.png"style="max-width:100%; height:450px;">
+    </div>
+    <div class="backdv">
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<button onclick="document.getElementById('handsx').style.display='block'" style="width:auto;">add</button>
+	 <div id="handsx" class="modal">
+  
+  <form class="modal-content animate"  method="post" name="headphone" action="/addheadphone" >
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('handsx').style.display='none'" class="close" title="Close Modal">&times;</span>
+      
+    </div>
+
+    <div class="containerx">
+      <label for="uname"><b>yourname</b></label>
+      <input type="text" placeholder="Enter your name" name="uname" required>
+
+      <label for="psw"><b>id</b></label>
+	   <input type="tel" placeholder="enter your phone "
+                      
+                   onkeypress="return onlyNumberKey(event)" maxlength="11" 
+                   size="30%" style="max-width:100%;" name="phone" required />  
+        
+     <input type="text" placeholder="enter id " name="idname" required
+                   onkeypress="return onlyNumberKey(event)" 
+                   maxlength="11" 
+                   size="50%" /> 
+				   
+				    <label style="color:black">  Type </label>
+				   <select style="width:90%; display:block; margin:5px;" name="tybe" required>
+					
+					<option>Samsung</option>
+					<option>iphone</option>
+					<option>YISON </option>
+			
+					
+					
+					
+				 </select>
+				 
+				 
+				     
+					
+				     
+					
+				
+				 
+				   
+				   
+				   
+				   
+				   
+				    <label style="color:black"> select color</label>
+				   <select style="width:50%; " name="color" required>
+					<option> red</option>
+					<option>brown </option>
+					<option> black</option>
+					<option> green </option>
+					<option> blue </option>
+					<option> white</option>
+					<option> yellow</option>
+					<option> orange </option>
+					<option> pink</option>
+					
+				 </select>
+				 <label style="color:black"> select place</label>
+				   <select style="width:50%; " name="place" required>
+					
+					 
+					 <option> lab 300</option>
+					 <option> lab 301</option>
+					 <option> lab 302</option>
+					 <option> lab 303</option>
+					 <option> lab 304</option>
+					 <option> lab 305</option>
+					 <option> lab 306</option>
+					<option> lab 400</option>
+					<option> lab 401</option>
+					<option> lab 402</option>
+					<option> lab 403</option>
+					<option> lab 404</option>
+					<option> class room 1</option>
+					<option> class room 2</option>
+					<option> class room 3 </option>
+					<option> class room  4</option>
+						<option> class room  5</option>
+						<option>other</option>
+				 </select>
+				   
+				   
+				    
+				    <input type ="file" name="add image" style="background-color:yellow; color:black;" >
+
+				    <input type="date" id="time" name="time">
+					
+				  <textarea id="Notes" name="Notes" rows="4" cols="25">
+				  
+				  enter your notes
+
+                    </textarea>
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+	
+      <button type="submit">finish</button>
+      
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('handsx').style.display='none'" class="cancelbtn">Cancel</button>
+     
+    </div>
+  </form>
+</div>
+
+	
+	<!---start search-->
+	<button onclick="document.getElementById('handsy').style.display='block'" style="width:auto;">search</button>
+	 <div id="handsy" class="modal">
+  
+  <form class="modal-content animate"  method="GET" action="/searchheadphone">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('handsy').style.display='none'" class="close" title="Close Modal">&times;</span>
+      
+    </div>
+
+    <div class="containerx">
+    
+      <!-- <input type="text" placeholder="Enter your name" name="uname" required>
+
+    
+	   <input type="tel" placeholder="enter your phone "
+                      
+                   onkeypress="return onlyNumberKey(event)" maxlength="11" 
+                   size="30%" style="max-width:100%;"required />  
+        
+     <input type="text" placeholder="enter id "required
+                   onkeypress="return onlyNumberKey(event)" 
+                   maxlength="11" 
+                   size="50%" /> 
+				     -->
+				    
+				     <label style="color:black">  Type </label>
+				   <select style="width:90%; display:block; margin:5px;" name="tybe" required>
+					
+					<option>Samsung</option>
+					<option>iphone</option>
+					<option>YISON </option>
+			
+					
+					
+					
+				 </select><br>
+				 
+				 
+				     
+					
+				
+				 
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+				   
+				    <label style="color:black"> select color</label>
+				   <select style="width:50%; " name="color" required>
+					<option> red</option>
+					<option>brown </option>
+					<option> black</option>
+					<option> green </option>
+					<option> blue </option>
+					<option> white</option>
+					<option> yellow</option>
+					<option> orange </option>
+					<option> pink</option>
+					
+				 </select><br>
+				 <label style="color:black"> select place</label>
+				   <select style="width:50%; " name="place" required>
+					
+					 
+					 <option> lab 300</option>
+					 <option> lab 301</option>
+					 <option> lab 302</option>
+					 <option> lab 303</option>
+					 <option> lab 304</option>
+					 <option> lab 305</option>
+					 <option> lab 306</option>
+					<option> lab 400</option>
+					<option> lab 401</option>
+					<option> lab 402</option>
+					<option> lab 403</option>
+					<option> lab 404</option>
+					<option> class room 1</option>
+					<option> class room 2</option>
+					<option> class room 3 </option>
+					<option> class room  4</option>
+						<option> class room  5</option>
+						<option>other</option>
+				 </select><br>
+				   
+				     <!-- <input type="date" id="time" name="time"> -->
+					
+				  <textarea id="Notes" name="Notes" rows="4" cols="25">
+				  
+				  enter your notes
+
+                    </textarea>
+				   
+				   
+				   
+				   
+				   
+				   
+	
+      <button type="submit">finish</button>
+      
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('handsy').style.display='none'" class="cancelbtn">Cancel</button>
+   
+    </div>
+  </form>
+</div>
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+      
+    </div>
+  </div>
+</div>
+  
+  
+  <div class="cardlost"style="width:100%;height:450px; ">
+  
+  <img src="img/cc3.jpg" style="height:100%; width:100%;" >
+
+  </div>
+   <div class="cardlost"style="width:100%;height:450px; ">
+  
+  <img src="img/101.jpg" style="height:100%; width:100%;" >
+  </div>
+    
+    
+    
+    </div>
+	
+	
+	
+	<!--end mid div in page 4-->
+   <div class="rightvideo">
+     <img src="img/1234.png" style="height:50%" >
+	 
+	  <img src="img/888.png" style="height:50%" >
+	    <img src="img/wet.png" style="height:50%" >
+ 
+   
+   </div>
+   
+   
+   </div>
+   
+   
+   <!--page4-->
+   
+ 
+
+   <div class="page4s" id="whoo">
+	<div class="leftt">
+  <img style="max-width:400px;height:100%;" src=" img/147.png">
+	</div>
+	
+	 <div class="lost">
+	  <p style="text-align:center;font-size:35px;font-weight:bold;">who find your lost </p>
+	  
+		 <h2 style="text-align:center;font-size:48px;font-weight:bold;"> name </h2>
+	 <p style="text-align:center;font-size:32px;font-weight:italic;">	<%= data[0].fullname %> </p>
+		 <h2 style="text-align:center;font-size:48px;font-weight:bold;">phone number</h2>
+			 <p style="text-align:center;font-size:32px;font-weight:italic;"> <%= data[0].phonenumber %></p>
+	   </div>
+	   
+	   <div class="righn">
+  <img style="max-width:650px;height:100%;" src=" img/159.png">
+	   </div>
+	   
+ 
+	</div>
+	
+	
+   
+   
+   
+  
+
+   <div class="alls" id="ourteam">
+   
+   <div class="row">
+   <h2 style="font-size:70px; margin-left:1100px; "> Our team</h2>
+  
+  
+  
+  <div class="column">
+    <div class="card">
+      <img src="img/bs.jpg"  style="width:100%; height:280px;">
+      <div class="container">
+        <h2>Basyouni saad</h2>
+        <p class="title">cs</p>
+        <p>if you want me kill you i will do my best.</p>
+      
+      
+
+<!-- Add font awesome icons -->
+<a href="https://www.facebook.com/profile.php?id=100007182615900" target="blank" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+
+
+<a href="#" class="fa fa-instagram"></a>
+
+       
+      </div>
+    </div>
+	<div class="card">
+        <img src="img/bs.jpg"  style="width:100%; height:280px;">
+      <div class="container">
+        <h2>Basyouni saad</h2>
+        <p class="title">cs</p>
+        <p>if you want me kill you i will do my best.</p>
+      
+      
+
+<!-- Add font awesome icons -->
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+
+
+<a href="#" class="fa fa-instagram"></a>
+
+       
+      </div>
+    </div>
+	<div class="card">
+        <img src="img/bs.jpg"  style="width:100%;height:280px;">
+      <div class="container">
+        <h2>Basyouni saad</h2>
+        <p class="title">cs</p>
+        <p>if you want me kill you i will do my best.</p>
+      
+      
+      
+
+<!-- Add font awesome icons -->
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+
+
+<a href="#" class="fa fa-instagram"></a>
+
+       
+      </div>
+    </div>
+	<div class="card">
+       
+      <img src="img/bs.jpg"  style="width:100%;height:280px;">
+      <div class="container">
+        <h2>Basyouni saad</h2>
+        <p class="title">cs</p>
+        <p>if you want me kill you i will do my best.</p>
+      
+
+<!-- Add font awesome icons -->
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+
+
+<a href="#" class="fa fa-instagram"></a>
+
+       
+      </div>
+    </div>
+	<div class="card">
+  
+      <img src="img/895.png"  style="width:100%; height:280px;">
+      <div class="container">
+        <h2>Basyouni saad</h2>
+        <p class="title">cs</p>
+        <p>if you want me kill you i will do my best.</p>
+      
+
+<!-- Add font awesome icons -->
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+
+
+<a href="#" class="fa fa-instagram"></a>
+
+       
+      </div>
+    </div>
+	<div class="card">
+  
+      <img src="img/beh.jpg"  style="width:100%;height:280px;">
+      <div class="container">
+        <h2>beshoy ehab</h2>
+        <p class="title">cs</p>
+        <p>if you want me kill you i will do my best.</p>
+      
+
+
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+
+
+<a href="#" class="fa fa-instagram"></a>
+
+       
+      </div>
+    </div>
+	
+	
+  </div>
+   
+
+   </div>
+   
+  
+   </div>
+   
+           <!-- Start Footer -->
+        
+        <div class="footer">
+            <div class="container">
+                <span class="fl-left">Copyright &copy; 2020 Basyouni Mariam Rana Hager Beshoy Nada .</span>
+                <ul>
+                    <li><i class="fa fa-facebook-square fa-lg"></i></li>
+                    <li><i class="fa fa-twitter-square fa-lg"></i></li>
+                    <li><i class="fa fa-linkedin-square fa-lg"></i></li>
+                    <li><i class="fa fa-google-plus-square fa-lg"></i></li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- End Footer -->
+        
+   
+   
+   
+  
+   
+   
+   
+   
+   
+   
+   <script src="/js/main.js"></script>
+   </body>
+   </html>
